@@ -1,4 +1,9 @@
-name: Cidney Hamilton
+title: Cidney Hamilton
+email: cidney@cidneyhamilton.com
 description: 
+  I make websites and interactive experiences. This one happens to belong to me. 
+baseurl: "" 
+url: "http://cidneyhamilton.com"
+github_username:  cidneyhamilton
 theme: minima
 gem "github-pages", group: :jekyll_plugins
