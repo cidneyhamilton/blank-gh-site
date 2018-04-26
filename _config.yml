@@ -1,3 +1,4 @@
 name: Cidney Hamilton
+description: 
 theme: minima
 gem "github-pages", group: :jekyll_plugins
