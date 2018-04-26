@@ -1,1 +1,4 @@
-theme: jekyll-theme-slate
+name: Cidney Hamilton
+theme: minima
+gem "github-pages", group: :jekyll_plugins
+
