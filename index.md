@@ -1,6 +1,6 @@
 ---
-layout: home
-list_title: "Blog Posts"
+layout: page
+title: 
 ---
 
 ## About Me
