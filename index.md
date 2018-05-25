@@ -1,9 +1,7 @@
 ---
-layout: page
+layout: default
 title: 
 ---
-
-## About Me
 
 I'm a software engineer with a specialty in UX. I make games and websites.
 
