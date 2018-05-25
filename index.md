@@ -13,4 +13,4 @@ Here's my [Github profile](https://github.com/cidneyhamilton) and [LinkedIn prof
 
 ## Contact
 
-I generally answer emails in 72 hours or fewer. You can reach me at <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>.
+You can reach me at <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>. 

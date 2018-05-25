@@ -11,7 +11,7 @@ Here are some narrative-driven games I've worked on:
 
 Hero-U: Rogue to Redemption is an fantasy roleplaying game telling the story of Shawn O'Connor, a would-be thief who gets sent to reform school at the Hero University in order to become a rogue. Development by Transolar Games was funded on Kickstarter and the game will be released in June 2018.
 
-* Release Date: May 2015 (Unity 3D)
+* Release Date: May 2018 (Unity 3D)
 * Platform: Windows, Mac OS, Linux
 * Download and play the demo [here](http://hero-u.com/demos-and-videos/)
 
@@ -46,7 +46,7 @@ Minimalist Space Invaders clone, written in 48 hours, to focus on mechanics and 
 * Platform: Web
 * Play [here](http://cidneyhamilton.com/space-invaders)
 
-### Space Invaders
+### Tic Tac Toe
 
 Minimalist Tic-Tac-Toe clone, written in 24 hours.
 
