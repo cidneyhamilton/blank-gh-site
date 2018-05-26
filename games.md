@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: "Games"
 ---
 
 ## Adventure Games
