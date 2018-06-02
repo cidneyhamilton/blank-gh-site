@@ -14,4 +14,4 @@ I've been making websites since 1999, when I was an angsty preteen who wore a lo
 
 The Internet, and I, grew up at the same time. Now, we're adults. 
 
-I haven't written anything longform on my website for a while. 
+I haven't written anything longform on my website for a while. I'll see how it goes.
