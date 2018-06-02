@@ -2,6 +2,8 @@
 layout: post
 title:  "Hello, World. Again."
 date:   2018-05-24
+category: update
+author: Cidney Hamilton
 ---
 
 This is the first time I've updated my website in two years. 
