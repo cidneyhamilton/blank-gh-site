@@ -1,14 +1,14 @@
 ---
 layout: default
-title: 
+title: Cidney Hamilton
 ---
 
 ## About Me
 
-I make games and websites. In my spare time I've written LARPs, volunteered for conventions, and performed as a contortionist. 
+Hi, I'm Cidney.
 
-Here's my <a rel="me" href="https://github.com/cidneyhamilton">Github profile</a> and <a rel="me" href="https://linkedin.com/in/cidney">LinkedIn profile</a>.
+I'm a freelance software developer and UX designer. I make games, websites, and interactive things.
 
 ## Contact
 
-You can reach me at <a class="u-email" rel="me" href="mailto:{{ site.email }}">{{ site.email }}</a>. 
+The best way to contact me is through email: <a class="u-email" rel="me" href="mailto:{{ site.email }}">{{ site.email }}</a>. I'm on Mastodon at <a href="https://mastodon.gamedev.place/cidney">@cidney@mastodon.gamedev.place</a>.
