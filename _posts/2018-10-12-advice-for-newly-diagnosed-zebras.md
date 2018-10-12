@@ -8,7 +8,10 @@ author: Cidney Hamilton
 
 Recently, an old friend from Boston got diagnosed, after years of **chronic pain**. She asked for words of wisdom. This was my response.
 
-I was diagnosed with a genetic disorder called **Ehlers-Danlos Syndrome** four years ago. I'd sprained my ankle running, and it never healed properly. I didn't know anyone else with EDS. The only thing I knew about it was from reading *The Contortionist's Handbook*, which pointed out that it's actually quite rare for contortionists to have EDS. 
+![Contortionist with EDS](/assets/images/post-images/contortionist-bw.png)
+
+I was diagnosed with a genetic disorder called **Ehlers-Danlos Syndrome** three years ago. I'd sprained my ankle running, and it never healed properly. I didn't know anyone else with EDS. The only thing I knew about it was from reading [The Contortionist's Handbook](http://wandererstraining.com/tchb/), which points out that **it's actually quite rare for contortionists to have EDS**. 
+
 
 ### Don't Panic!
 
@@ -18,7 +21,7 @@ It's normal to feel overwhelmed. **Geneticists are scientists**, not doctors; th
 
 ### Don't Make Comparisons
 
-Everyone with EDS is different. Diet and exercise have a huge impact on symptom severity, but "just do Pilates!" or "become vegan!" isn't usually helpful advice. If you're already a vegetarian or vegan, or athletic, you're well on your way to managing your symptoms, but <b>stressing out your body by making major lifestyle changes</b> will be counterproductive.
+Everyone with EDS is different. Diet and exercise have a huge impact on symptom severity, but "just do Pilates!" or "become vegan!" isn't usually helpful advice. If you're already a vegetarian or vegan, or athletic, you're well on your way to managing your symptoms, but **stressing out your body by making major lifestyle changes** will be counterproductive.
 
 ### Beware Support Groups
 
@@ -32,8 +35,8 @@ It can be really helpful to **make friends with EDS**, but be mindful of how muc
 
 ### Buy a Book on EDS
 
-Isobel Knight's _A Guide To Living with Ehlers-Danlos Syndrome_ and Kevin Muldowney's _Living Life to the Fullest With Ehlers-Danlos Syndrome_ are not only great things to read to understand your diagnosis, they are physical objects you can bring to doctor's visits to explain your situation and symptoms.
+Isobel Knight's [A Guide To Living with Ehlers-Danlos Syndrome](https://www.goodreads.com/book/show/24062761-a-guide-to-living-with-ehlers-danlos-syndrome-hypermobility-type) and Kevin Muldowney's [Living Life to the Fullest With Ehlers-Danlos Syndrome](https://www.goodreads.com/book/show/26208807-living-life-to-the-fullest-with-ehlers-danlos-syndrome?from_search=true) are not only great things to read to understand your diagnosis, they are **physical objects** you can bring to doctor's visits to explain your situation and symptoms.
 
 ### Get Used to Educating Your Doctors
 
-If you live in a big city, you might have doctors with multiple EDS patients, who will be experienced and understanding. If you live in a small town, you're probably going to be the first case your doctors have seen since med school. Get used to explaining EDS and having to be your own advocate. If you can, ask your local EDS group for recommendations.
+If you live in a big city, you might have doctors with multiple EDS patients, who will be experienced and understanding. If you live in a small town, you're probably going to be the first case your doctors have seen since med school. Get used to explaining EDS and having to **be your own advocate**. If you can, ask your local EDS group for recommendations.
