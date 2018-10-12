@@ -1,19 +1,15 @@
 ---
-layout: page
+layout: blog_index
 title: Microblog
 permalink: /microblog/
+blurb: 140 character micro-updates.
 ---
 
 <ul>
   {% for post in site.posts %}
   	{% if post.category == 'microblog' %}
-    <li>
-      {{ post.content }}
-      <footer class="microblog-meta">
-        <small>
-        	<a href="{{ post.url }}">{{ post.date | date: "%a, %b %d, %Y at %I:%M%P" }}</a>
-        </small>
-      </footer>
+    <li class="microblog">
+      <span class="date">{{ post.date | date: "%a, %b %d, %Y at %I:%M%P" }}</span> &raquo; {{ post.excerpt }}
     </li>
     {% endif %}
   {% endfor %}

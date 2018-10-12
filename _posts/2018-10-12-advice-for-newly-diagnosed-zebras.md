@@ -6,9 +6,9 @@ category: blog
 author: Cidney Hamilton
 ---
 
-I was diagnosed with a genetic disorder called **Ehlers-Danlos Syndrome** four years ago. I'd sprained my ankle running, and it never healed properly. I didn't know anyone else with EDS. The only thing I knew about it was from reading *The Contortionist's Handbook*, which pointed out that it's actually quite rare for contortionists to have EDS. 
+Recently, an old friend from Boston got diagnosed, after years of **chronic pain**. She asked for words of wisdom. This was my response.
 
-Yesterday, an old friend from Boston got diagnosed, after years of **chronic pain**. She asked for words of wisdom. Here's my response.
+I was diagnosed with a genetic disorder called **Ehlers-Danlos Syndrome** four years ago. I'd sprained my ankle running, and it never healed properly. I didn't know anyone else with EDS. The only thing I knew about it was from reading *The Contortionist's Handbook*, which pointed out that it's actually quite rare for contortionists to have EDS. 
 
 ### Don't Panic!
 

@@ -1,0 +1,30 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.blog-title:before {
+	content: url('/assets/images/icons/rss.png');
+	display: inline-block;
+	height: 48px;
+	padding-right: 16px;
+	width: 48px;
+}
+
+.blog-title {
+	font-size: 4em;
+}
+
+.blog-content {
+	padding-left: 2em;
+}
+
+.blurb {
+	margin: 0 0 2.5em 0;
+	font-style: italic;
+}
+
+.microblog p {
+	display: inline;
+}
