@@ -31,3 +31,10 @@ City of Mind is a psychological fantasy game about parental estrangement, immigr
 * Re-released in Twine on November 2016
 * Platform: Web
 * Play in browser [here](http://cidneyhamilton.com/Leavetaking.html).
+
+### Ashara Online
+
+Ashara Online was a play-by-post dark fantasy MMO I built when I was in high school that's mostly been offline for a while. I'm listing it here because lots of people know me from that alone.
+
+* Release Date: July 2003
+* Platform: Web

@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello, World. Again."
 date:   2018-05-24
-category: update
+category: blog
 author: Cidney Hamilton
 ---
 

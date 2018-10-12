@@ -7,8 +7,10 @@ title: Cidney Hamilton
 
 Hi, I'm Cidney.
 
-I'm a freelance software developer and UX designer. I make games, websites, and interactive things.
+I write code and design things for a living. I'm one of those weird design/developer hybrid types. I make websites, games, and other interactive things.
 
 ## Contact
 
-The best way to contact me is through email: <a class="u-email" rel="me" href="mailto:{{ site.email }}">{{ site.email }}</a>. I'm on Mastodon at <a href="https://mastodon.gamedev.place/@cidney">@cidney@mastodon.gamedev.place</a>.
+To get in touch with me, <a rel="me" href="https://mastodon.gamedev.place/@cidney">toots</a> or <a class="u-email" rel="me" href="mailto:{{ site.email }}">email</a> is best. I'm generally open to inquiries about working together or meeting up if you're visiting the Space Coast.
+
+I'm on <a rel="me" href="https://www.facebook.com/cidney.hamilton">Facebook</a>, but am not too comfortable posting personal information there, so this is not the place to contact me.
