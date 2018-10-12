@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include blog_header.html %}
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -26,4 +28,6 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+{% include blog_footer.html %}
 

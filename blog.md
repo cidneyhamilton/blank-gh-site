@@ -2,7 +2,6 @@
 layout: blog_index
 title: Dev Log
 permalink: /blog/
-blurb: 500 words on whatever I want to write about.
 ---
 
 <ul>

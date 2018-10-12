@@ -6,7 +6,8 @@ url: "http://cidneyhamilton.com"
 github_username:  cidneyhamilton
 theme: minima
 gem "github-pages", group: :jekyll_plugins
-excerpt_separator: <!--more-->
 sass:
     sass_dir: _sass
     style: compact
+blog_title: "Dev Log"
+blog_blurb: "500 words a day on whatever I want to write about."

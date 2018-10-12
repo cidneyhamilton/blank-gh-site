@@ -2,13 +2,7 @@
 layout: default
 ---
 
-<header class="blog-header">
-	<h1 class="blog-title">{{ page.title | escape }}</h1>
-</header>
-
-<div class="blurb">
-	{{ page.blurb }}
-</div>
+{% include blog_header.html %}
 
 <div class="blog-content">
 	{{ content }}
