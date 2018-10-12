@@ -56,7 +56,10 @@
 
 .search button[type="submit"] {
 	position: absolute;
+	clip: rect(0, 0, 0, 0);
 	top: 0;
 	right: 0;
+	margin: -1px;
+	height: 1px;
 	width: 1px;;
 }
