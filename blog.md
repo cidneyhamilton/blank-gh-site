@@ -1,5 +1,5 @@
 ---
-layout: blog_index
+layout: blog
 title: Dev Log
 permalink: /blog/
 ---

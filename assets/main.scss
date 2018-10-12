@@ -25,8 +25,11 @@
 	font-style: italic;
 }
 
-.microblog p {
-	display: inline;
+.microblog img {
+	background-color: #f3f3f3;
+	border: 1px solid #ddd;
+	padding: 4px;
+	max-width: 80%;
 }
 
 .h-entry {
@@ -39,7 +42,6 @@
 	padding: 4px;
 	margin: 0 0 0 1em;
 	max-width: 35%;
-	float: right;
 }
 
 // Search form
