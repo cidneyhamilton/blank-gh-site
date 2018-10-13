@@ -6,8 +6,6 @@ layout: default
 
 <article class="post h-entry">
 
-<img class="avatar u-photo" alt="" src="/assets/images/icon.jpg" />
-
 <p class="e-content microblog">{{ page.content }}</p>
 
         <p class="post-meta">
