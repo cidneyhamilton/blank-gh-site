@@ -1,9 +1,7 @@
 ---
 layout: page
-title:
+title: Adventure Games
 ---
-
-## Adventure Games
 
 Here are some narrative-driven games I've worked on:
 
