@@ -1,6 +1,6 @@
 ---
 layout: microblog
-title: Microblog
+title: Micro-Updates
 permalink: /microblog/
 blurb: 140 character micro-updates.
 ---

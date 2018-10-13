@@ -6,7 +6,7 @@ layout: default
 
 <article class="post h-entry">
 
-<img class="avatar" alt="" src="/assets/images/icon.jpg" />
+<img class="avatar u-photo" alt="" src="/assets/images/icon.jpg" />
 
 <p class="e-content microblog">{{ page.content }}</p>
 
@@ -20,7 +20,7 @@ layout: default
         {%- endif -%}
         </p>
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
-{% include blog_footer.html %}
+{% include microblog_footer.html %}

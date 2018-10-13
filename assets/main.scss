@@ -11,6 +11,10 @@
 	height: 48px;
 	width: 48px;
 }
+
+.site-header .avatar {
+	padding-top: 0.2em;
+}
 .blog-title:before {
 	content: url('/assets/images/icons/rss.png');
 	display: inline-block;
@@ -40,7 +44,7 @@
 }
 
 .h-entry {
-	padding: 0 0 0 2em;
+	padding: 0 2em 0 2em;
 }
 
 .post-content img {
@@ -69,4 +73,22 @@
 	margin: -1px;
 	height: 1px;
 	width: 1px;;
+}
+
+.navigation {
+	width: 33%;
+	float: left;
+	font-size: 0.9em;
+}
+
+.navigation-previous {
+	text-align: left;
+}
+
+.navigation-up {
+	text-align: center;
+}
+
+.navigation-next {
+	text-align: right;
 }
