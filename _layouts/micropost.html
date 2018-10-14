@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% include microblog_header.html %}
+
+<article class="post h-entry">
+
+	<p class="e-content microblog">{{ page.content }}</p>
+
+	{% include post_meta.html %}
+
+	<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+</article>
+
+{% include microblog_footer.html %}
