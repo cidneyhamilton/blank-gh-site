@@ -1,0 +1,9 @@
+<nav>
+	<label for="toggle-mobile-menu">&#9776;</label>
+	<input id="toggle-mobile-menu" type="checkbox">
+	<ul>
+		{% for item in site.data.nav %}
+			<li><a href="{{ item.link }}">{{ item.name }}</a></li>
+		{% endfor %}
+	</ul>
+</nav>

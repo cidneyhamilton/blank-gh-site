@@ -1,10 +1,3 @@
-$background-light: #e3f1f6;
-$background-medium: #d8f0f5;
-$background-dark: #ceeaf1;
-
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
-$serif-font-stack: 'EB Garamond', serif;
-
 * {
 	margin: 0;
 	padding: 0;
@@ -13,9 +6,6 @@ $serif-font-stack: 'EB Garamond', serif;
 body {
 	background: $background-medium;
 	background: linear-gradient(90deg, $background-light, $background-medium);
-	font-family: $serif-font-stack;
-	font-size: 18px;
-
 }
 
 a {
@@ -144,9 +134,7 @@ footer {
 	max-width: 35%;
 }
 
-.pagination {
-	padding: 0 16px;
-}
+
 
 @media screen and (max-width:600px) {
 

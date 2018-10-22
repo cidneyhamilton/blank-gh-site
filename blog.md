@@ -4,7 +4,6 @@ title: Dev Log
 permalink: /blog/
 ---
 
-<section class="contents">
 <ul>
   {% for post in site.posts %}
   	{% if post.category == 'blog' %}
@@ -16,4 +15,3 @@ permalink: /blog/
     {% endif %}
   {% endfor %}
 </ul>
-</section>
