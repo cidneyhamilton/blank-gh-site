@@ -1,0 +1,30 @@
+.container {
+	max-width: 970px;
+	display: flex;
+	margin: 0 auto;
+}
+
+.row {
+	clear: both;
+}
+
+.row:nth-child(even) {
+	background: $background-dark;
+}
+
+.col {
+	width: 50%;
+	padding: 0 32px;
+}
+
+@media screen and (max-width:600px) {
+
+	.container {
+		display: block;
+	}
+
+	.col {
+		width: auto;
+	}
+
+}
