@@ -1,0 +1,54 @@
+---
+layout: default
+title: Cidney Hamilton
+---
+
+<div class="row">
+	<section id="welcome">
+		<p>
+			Hi, I’m Cidney.
+		</p>
+
+		<p>
+			I write code and design things for a living. I’m one of those weird design/developer hybrid types. I make websites, games, and other interactive things.
+		</p>
+		
+		<p>
+			I’ve been freelancing for four years, and have never looked back. I’ve worked with Transolar Games to make Hero-U Rogue to Redemption, and also do volunteer work with the local Democratic Party.
+		</p>
+	</section>
+</div>
+<div class="row">
+
+	<div class="container">
+
+		<section id="updates" class="col">
+			<h2>Latest Updates</h2>
+
+			<ul>
+			  {% for post in site.posts %}
+			  	{% if post.category == 'blog' %}
+			    <li>
+			      <a href="{{ post.url }}">{{ post.title }}</a>
+			    </li>
+			    {% endif %}
+			  {% endfor %}
+			</ul>
+		</section>
+
+		<section id="contact" class="col">
+			<h2>Contact</h2>
+
+			<p>
+				To get in touch with me, sending me a <a rel="me" href="{{ site.mastodon_url }}" target="_blank">toot on Mastodon</a> or an <a class="u-email" rel="me" href="mailto:{{ site.email }}">email</a> is best. I'm also active on the <a href="http://hero-u.net/forum/">Hero-U forums</a>. I'm generally open to inquiries about working together or meeting up if you're visiting the Space Coast.
+			</p>
+
+			<p>
+				I'm on <a rel="me" href="{{ site.facebook_url }}" target="_blank">Facebook</a>, but am not too comfortable posting personal information there, so this is not the place to contact me.
+			</p>
+		</section>
+
+	</div>
+</div>
+
+

@@ -1,13 +1,108 @@
+$background-light: #eee;
+$background-dark: #ddd;
+
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+$serif-font-stack: 'EB Garamond', serif;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: radial-gradient(ellipse, $background-light 0, $background-light 80%, $background-dark 100%);
+	font-family: $serif-font-stack;
+	font-size: 18px;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h2 {
+	padding-top: 1em;
+}
+
+ul {
+	padding: 1em;
+}
+
 .avatar {
-	float: left;
 	border-radius: 50%;
 	margin-right: 1em;
 	height: 48x;
 	width: 48px;
 }
 
-.site-header .avatar {
-	padding-top: 0.2em;
+header {
+
+	text-align: center;
+
+	.avatar {
+		margin-top: 0.2em;
+		height: 72px;
+		width: 72px;
+	}
+
+	a {
+		color: black;
+	}
+
+	h1 {
+		font-size: 2.5em;
+		margin-top: 6px;
+	}
+
+}
+
+header.post-header {
+	text-align: left;
+	h2 {
+		font-size: 2.4em;
+	}
+}
+
+footer {
+	text-align: center;
+	font-size: 0.75em;
+	padding-top: 2em;
+}
+
+.container {
+	max-width: 970px;
+	display: flex;
+	margin: 0 auto;
+}
+
+#welcome {
+	text-align: left;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 32px;
+}
+
+.row {
+	clear: both;
+}
+
+.row:nth-child(even) {
+	background: $background-dark;
+}
+
+.col {
+	width: 50%;
+	padding: 0 32px;
+}
+
+.blog-title {
+	font-size: 4em;
 }
 
 .blog-title:before {
@@ -18,12 +113,13 @@
 	width: 48px;
 }
 
-.blog-title {
-	font-size: 4em;
-}
-
 .blog-content {
 	padding-left: 2em;
+}
+
+.blog-nav {
+	text-align: center;
+	list-style-type: none;
 }
 
 .blurb {
@@ -38,8 +134,10 @@
 	max-width: 80%;
 }
 
-.h-entry {
+.h-entry, .contents {
 	padding: 0 2em 0 2em;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 .post-content img {
@@ -50,7 +148,20 @@
 	max-width: 35%;
 }
 
+.pagination {
+	padding: 0 16px;
+}
+
 @media screen and (max-width:600px) {
+
+	.container {
+		display: block;
+	}
+
+	.col {
+		width: auto;
+	}
+
 	.blog-content {
 		padding: 0;
 	}

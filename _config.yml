@@ -1,19 +1,15 @@
 title: Cidney Hamilton
 email: cidney@cidneyhamilton.com
-description: "UX designer, developer, interactive fiction writer."
+description: "Cidney Hamilton's personal website."
 
-
-baseurl: "" 
+baseurl: "/" 
 url: "http://cidneyhamilton.com"
 github_username:  cidneyhamilton
 mastodon_url: https://mastodon.gamedev.place/@cidney
 facebook_url: https://www.facebook.com/cidney.hamilton
 
-theme: minima
 gem "github-pages", group: :jekyll_plugins
-sass:
-    sass_dir: _sass
-    style: compact
+
 blog_title: "Dev Log"
 blog_blurb: "500 words a day on whatever I want to write about."
 microblog_title: "Notes"

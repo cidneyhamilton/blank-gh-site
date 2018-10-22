@@ -1,9 +1,25 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-{% include blog_header.html %}
+  {%- include head.html -%}
 
-<div class="blog-content">
-	{{ content }}
-</div>
+  <body>
+
+	{% include blog_header.html %}
+
+    <main class="blog-content" aria-label="Content">
+      <div class="wrapper">
+        <ul class="blog-nav">
+          <li>
+            <a href="{{ site.baseurl }}">About Me</a>
+          </li>
+        </ul>
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
