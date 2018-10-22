@@ -1,5 +1,6 @@
-$background-light: #eee;
-$background-dark: #ddd;
+$background-light: #e3f1f6;
+$background-medium: #d8f0f5;
+$background-dark: #ceeaf1;
 
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 $serif-font-stack: 'EB Garamond', serif;
@@ -10,7 +11,8 @@ $serif-font-stack: 'EB Garamond', serif;
 }
 
 body {
-	background: radial-gradient(ellipse, $background-light 0, $background-light 80%, $background-dark 100%);
+	background: $background-medium;
+	background: linear-gradient(90deg, $background-light, $background-medium);
 	font-family: $serif-font-stack;
 	font-size: 18px;
 
