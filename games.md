@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Adventure Games
+title: Game Portfolio
 ---
 
 Here are some narrative-driven games I've worked on:

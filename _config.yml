@@ -14,6 +14,7 @@ blog_title: "Dev Log"
 blog_blurb: "500 words a day on whatever I want to write about."
 microblog_title: "Notes"
 microblog_blurb: "120 characters on whatever I want to write about. Mostly archived from Mastodon."
+
 collections:
   notes:
     output: true
