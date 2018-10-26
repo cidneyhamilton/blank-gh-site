@@ -2,8 +2,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="description" content="Cidney Hamilton's personal website." />
-  <meta name="keywords" content="personal, website, cidney, hamilton, contact, information" />
+  <meta name="description" content="{{ site.description }}">
+  <meta name="keywords" content="personal, website, cidney, hamilton, contact, information">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url | escape }}" />
+  {% if page.image %}
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+  {% endif %}
 
   <meta name="mobile-web-app-capable" content="yes" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +20,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
 
   <!--Social Media Profiles-->
-  <link rel="me" href="https://github.com/cidneyhamilton" />
-  <link rel="me" href="https://plus.google.com/+cidneyhamilton" />
+  <link rel="me" href="https://github.com/{{ site.github_username }}" />
   <link rel="me" href="sms:+13213610477" />
 
   <link rel="authorization_endpoint" href="https://indieauth.com/auth" />

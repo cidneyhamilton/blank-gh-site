@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Mel Martin."
+title:  "Mel Martin"
 date:   2018-10-23
 category: blog
 author: Cidney Hamilton
+image: /assets/images/post-images/melmartin.jpg
 ---
 
 ![Photo of Mel Martin](/assets/images/post-images/melmartin.jpg)
@@ -20,7 +21,7 @@ The Indian River Lagoon is home to thousands of unique species of plants, animal
 
 Martin grew up in Central Florida. She graduated from the US Naval Academy, then served in the **Marine Corps** until 2014. She moved back to Brevard County to raise her family, where it became evident that the waterways she grew up with are in danger. She previously served as president of the [Brevard Indian River Coalition](https://helpthelagoon.org/).
 
-The Indian River Lagoon is not just for plants and animals; it's also vital to Florida's economy; driving 10% of Florida's **tourism revenue**. Tourists come here to kayak and spot rare birds. The Rick Scott administration rolled back environmental safeguards and cut $700 million from the water management budget. The goal was to improve the economy and stimulate job growth. However, the algae blooms exacerbated by his platform have actually hurt the economy by making Florida's waterways unsafe for tourists.
+The Indian River Lagoon is not just for plants and animals; it's also vital to Florida's economy, driving **10% of Florida's tourism revenue**. Tourists come here to kayak and spot rare birds. The Rick Scott administration rolled back environmental safeguards and cut $700 million from the water management budget. The goal was to improve the economy and stimulate job growth. However, the algae blooms exacerbated by his platform have actually hurt the economy by making Florida's waterways unsafe for tourists.
 
 The 2018 general election is on **Tuesday, November 6th**. Early voting begins on **October 27th**.
 
