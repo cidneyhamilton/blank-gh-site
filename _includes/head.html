@@ -1,4 +1,5 @@
 <head>
+  <title>{{ page.title }} | {{ site.title }}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,7 +16,6 @@
   <meta name="mobile-web-app-capable" content="yes" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
   <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
 
@@ -25,7 +25,5 @@
 
   <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
   <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
-
-  <link rel="micropub" href="https://micropub-to-cidneyhamilton.herokuapp.com/">
 
 </head>
