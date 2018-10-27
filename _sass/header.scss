@@ -1,0 +1,50 @@
+
+header {
+
+	text-align: center;
+
+	a {
+		color: black;
+	}
+
+	h1 {
+		font-size: 2.5em;
+		margin-top: 6px;
+		line-height: 100%;
+	}
+
+	h1.blog-title {
+
+		&:before {
+			height: 32px;
+			width: 32px;
+			padding-right: 6px;
+		}
+	}
+
+}
+
+header.post-header {
+	text-align: left;
+
+	h2 {
+		font-size: 2.4em;
+	}
+}
+
+.blog-title:before {
+	content: url('/assets/images/icons/rss32x32.png');
+	display: inline-block;
+}
+
+@media screen and (max-width: 480px) {
+	header h1 {
+		font-size: 2em;
+		margin-top: 1em;
+	}
+
+	header.post-header h2 {
+		font-size: 2em;
+	}
+}
+

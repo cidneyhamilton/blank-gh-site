@@ -1,0 +1,53 @@
+.h-entry, 
+.contents {
+	padding: 0 2em;
+	max-width: 790px;
+	margin: 0 auto;
+}
+
+.post-header {
+	text-align: left;
+}
+
+.blog-content {
+	padding-left: 2em;
+}
+
+.post-content {
+	p {
+		padding: 1em 0;
+	}
+	img {
+		background-color: #f3f3f3;
+		border: 1px solid #ddd;
+		padding: 4px;
+		margin: 0 0 0 1em;
+		max-width: 35%;
+	}
+}
+
+.post-meta {
+	font-size: 16px;
+	font-family: $sans-serif-font-stack;
+	color: #828282;
+}
+
+@media screen and (max-width:600px) {
+
+	.blog-content {
+		padding: 0;
+	}
+
+	.h-entry {
+		padding: 0;
+	}
+
+	.contents {
+		padding: 0 1em;
+	}
+
+	.post-content img {
+		max-width: 80%;
+	}
+
+}

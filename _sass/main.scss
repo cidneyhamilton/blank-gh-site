@@ -18,24 +18,8 @@ li {
 	}
 }
 
-.blog-title:before {
-	content: url('/assets/images/icons/rss.png');
-	display: inline-block;
-}
-
 .contact-title:before {
 	display: inline-block;
-}
-
-h1.blog-title {
-
-	font-size: 4em;
-
-	&:before {
-		height: 48px;
-		padding-right: 16px;
-		width: 48px;
-	}
 }
 
 h2 {
@@ -60,47 +44,12 @@ ul {
 	padding: 1em;
 }
 
-
-
-header {
-
-	text-align: center;
-
-	a {
-		color: black;
-	}
-
-	h1 {
-		font-size: 2.5em;
-		margin-top: 6px;
-	}
-
-}
-
-header.post-header {
-	text-align: left;
-
-	h2 {
-		font-size: 2.4em;
-	}
-}
-
-footer {
-	text-align: center;
-	padding-top: 2em;
-}
-
-
 #welcome {
 	text-align: left;
 	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 1em 2em 2em 2em;
-}
-
-.blog-content {
-	padding-left: 2em;
 }
 
 .blog-nav {
@@ -120,40 +69,10 @@ footer {
 	max-width: 80%;
 }
 
-.h-entry, .contents {
-	padding: 0 2em 0 2em;
-	max-width: 790px;
-	margin: 0 auto;
-}
-
-.post-content {
-	p {
-		padding: 1em 0;
-	}
-	img {
-		background-color: #f3f3f3;
-		border: 1px solid #ddd;
-		padding: 4px;
-		margin: 0 0 0 1em;
-		max-width: 35%;
-	}
-}
-
-.post-meta {
-	font-size: 16px;
-	font-family: $sans-serif-font-stack;
-	color: #828282;
-}
-
-
 @media screen and (max-width:600px) {
 
 	ul, ol {
 		margin-left: 10px;
-	}
-
-	.blog-content {
-		padding: 0;
 	}
 
 	.blog-title {
@@ -165,4 +84,6 @@ footer {
 		height: 24px;
 		width: 24px;
 	}
+
+
 }
