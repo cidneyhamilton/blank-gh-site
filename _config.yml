@@ -11,9 +11,9 @@ facebook_url: https://www.facebook.com/cidney.hamilton
 gem "github-pages", group: :jekyll_plugins
 
 blog_title: "Latest Updates"
-blog_blurb: "500 words a day on whatever I want to write about."
 microblog_title: "Notes"
-microblog_blurb: "120 characters on whatever I want to write about. Mostly archived from Mastodon."
+
+webmention_url: "https://webmention.io/cidneyhamilton.com/webmention"
 
 collections:
   notes:

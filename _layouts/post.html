@@ -10,7 +10,19 @@ layout: blog
     {{ content }}
   </div>
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+	<footer class="post-footer">
+		<form class="webmention-form" action="{{ site.webmention_url }}" method="post">
+			<label for="url-mention">Response URI:</label>
+			<div>
+				<input type="url" name="source" id="url-mention" />
+				<input type="hidden" name="target" value="{{ site.url }}{{ page.url }}">
+				<input type="submit" value="Send Webmention" />
+
+			</div>
+		</form>
+		<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+	</footer>
+  
 </article>
 
 {% include blog_footer.html %}
