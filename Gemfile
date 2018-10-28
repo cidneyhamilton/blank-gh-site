@@ -1,6 +1,10 @@
-source "https://rubygems.org"
+source 'http://rubygems.org'
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+gem 'jekyll'
 
-# gem "rails"
-gem "github-pages", group: :jekyll_plugins
+group :jekyll_plugins do
+	gem 'jekyll-sitemap'
+end
+
+gem "rake"
+ruby "2.4.2"
