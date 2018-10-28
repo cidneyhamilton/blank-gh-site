@@ -3,10 +3,10 @@ layout: post
 title:  "Florida Amendment 4"
 date:   2018-10-27
 category: blog
-author: Cidney Hamilton
 ---
 
 Florida Amendment 4 is an initiative to restore **voting rights** to ex-felons.
+<!-- more -->
 
 If passed, it would restore voting rights to **1.6 million** Floridians. There are only 13 million registered voters on Florida. This means that this could have a huge impact on elections, and potentially national politics.
 

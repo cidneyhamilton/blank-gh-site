@@ -3,13 +3,12 @@ layout: post
 title:  "Mel Martin"
 date:   2018-10-23
 category: blog
-author: Cidney Hamilton
 image: /assets/images/post-images/melmartin.jpg
 ---
 
 ![Photo of Mel Martin](/assets/images/post-images/melmartin.jpg)
 
-**Mel Martin** is the Democrat running for Florida's Senate [District 14](https://www.flsenate.gov/Senators/S14). This district represents northern **Brevard County** and southern **Volusia County**, from Port Orange to Viera.
+**Mel Martin** is the Democrat running for Florida's Senate [District 14](https://www.flsenate.gov/Senators/S14). <!-- more -->This district represents northern **Brevard County** and southern **Volusia County**, from Port Orange to Viera.
 
 She is running first and foremost as an **environmentalist**. The district she will represent contains much of the **Indian River Lagoon**. Her district alone contains Mosquito Lagoon, the Merritt Island National Wildlife Refuge, and Canaveral National Seashore. 
 

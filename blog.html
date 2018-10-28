@@ -4,12 +4,15 @@ title: Latest Updates
 permalink: /blog/
 ---
 
-<ul>
+<ul class="blog-index">
   {% for post in site.posts %}
   	{% if post.category == 'blog' %}
     <li>
-      <span class="date">{{ post.date | date: "%a, %b %d, %Y" }}</span> &raquo;
-      <a href="{{ post.url }}">{{ post.title }}</a>
+    	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    	{% include post_meta.html date=post.date author=site.author %}
+    	<p class="preview">
+    		{{ post.content | split: '<!-- more -->' | first | strip_html }}
+    	</p>
     </li>
     {% endif %}
   {% endfor %}

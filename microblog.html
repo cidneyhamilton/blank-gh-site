@@ -5,11 +5,18 @@ permalink: /microblog/
 blurb: 140 character micro-updates.
 ---
 
-<ul>
-  {% for post in site.notes reversed %}
-    <li class="microblog">
-      	<span class="date">{{ post.date | date: "%a, %b %d, %Y at %I:%M%P" }}</span> &raquo; 
-      {{ post.content }}
-    </li>
-  {% endfor %}
+<ul class="microblog-index">
+	{% assign notes = site.notes | reverse %}
+	{% for note in notes limit:20 %}
+	    <li class="microblog h-entry">
+		  	{% include post_meta.html date=note.date author=site.author %}
+		   	<p class=e-content">
+		    	{{ note.content }}
+		     </p>
+		    {% if note.image %}
+				<p class="u-featured"><a href="{{ note.image }}"><img src="{{ note.image }}" alt="" /></a>
+				</p>
+			{% endif %}
+	    </li>
+	{% endfor %}
 </ul>

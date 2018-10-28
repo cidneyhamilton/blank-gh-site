@@ -9,10 +9,6 @@
 	text-align: left;
 }
 
-.blog-content {
-	padding-left: 2em;
-}
-
 .post-content {
 	p {
 		padding: 1em 0;
@@ -58,10 +54,6 @@ footer.post-footer {
 }
 
 @media screen and (max-width:600px) {
-
-	.blog-content {
-		padding: 0;
-	}
 
 	.h-entry {
 		padding: 0;

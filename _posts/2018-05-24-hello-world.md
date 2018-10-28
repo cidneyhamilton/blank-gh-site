@@ -3,10 +3,11 @@ layout: post
 title:  "Hello, World. Again."
 date:   2018-05-24
 category: blog
-author: Cidney Hamilton
 ---
 
 This is the first time I've updated my website in two years. 
+
+<!-- more -->
 
 I'm trying something different. Clean, simple, minimalistic.
 

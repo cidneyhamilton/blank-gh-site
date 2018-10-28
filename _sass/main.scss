@@ -12,6 +12,10 @@ a {
 	text-decoration: none;
 }
 
+ul {
+	padding: 1em;
+}
+
 li {
 	p {
 		padding: 0 0 1em 0;
@@ -55,10 +59,6 @@ h2 {
 	}
 }
 
-ul {
-	padding: 1em;
-}
-
 #welcome {
 	text-align: left;
 	max-width: 600px;
@@ -75,13 +75,6 @@ ul {
 .blurb {
 	margin: 0 0 2.5em 0;
 	font-style: italic;
-}
-
-.microblog img {
-	background-color: #f3f3f3;
-	border: 1px solid #ddd;
-	padding: 4px;
-	max-width: 80%;
 }
 
 @media screen and (max-width:600px) {

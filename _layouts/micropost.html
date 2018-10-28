@@ -8,7 +8,11 @@ layout: microblog
 	{{ page.content }}
 </p>
 
-	{% include post_meta.html %}
+	{% if page.image %}
+		<a href="{{ page.image }}"><img src="{{ page.image }}" alt="" /></a>
+	{% endif %}
+
+	{% include post_meta.html date=page.date author=page.author %}
 
 	<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 

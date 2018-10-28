@@ -3,14 +3,15 @@ layout: post
 title:  "So You Just Got Diagnosed With EDS?"
 date:   2018-10-11
 category: blog
-author: Cidney Hamilton
 ---
 
-Recently, an old friend from Boston got diagnosed, after years of **chronic pain**. She asked for words of wisdom. This was my response.
+Recently, an old friend from Boston was diagnosed with Ehlers-Danlos Syndrome, after years of **chronic pain**. She asked for words of wisdom. This was my response.
+
+<!-- more -->
 
 ![Contortionist with EDS](/assets/images/post-images/contortionist-bw.png)
 
-I was diagnosed with a genetic disorder called **Ehlers-Danlos Syndrome** three years ago. I'd sprained my ankle running, and it never healed properly. I didn't know anyone else with EDS. The only thing I knew about it was from reading [The Contortionist's Handbook](http://wandererstraining.com/tchb/), which points out that **it's actually quite rare for contortionists to have EDS**. 
+I was diagnosed with EDS three years ago. I'd sprained my ankle running, and it never healed properly. I didn't know anyone else with EDS. The only thing I knew about it was from reading [The Contortionist's Handbook](http://wandererstraining.com/tchb/), which points out that **it's actually quite rare for contortionists to have EDS**. 
 
 
 ### Don't Panic!
