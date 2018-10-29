@@ -9,11 +9,17 @@
   <!-- Open Graph data -->
   <meta property="og:title" content="{{ page.title | escape }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url | escape }}" />
+  
   {% if page.image %}
     <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+  {% else %}
+    <meta property="og:image" content="/assets/images/icon.jpg" />
   {% endif %}
+
   {% if page.id %}
     <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 50 }}" />
+  {% else %}
+    <meta property="og:description" content="{{ site.description }}">
   {% endif %}
 
   <meta name="mobile-web-app-capable" content="yes" />
