@@ -3,8 +3,6 @@ email: cidney@cidneyhamilton.com
 description: "Cidney Hamilton's personal website."
 author: Cidney Hamilton
 
-baseurl: "/" 
-url: "http://cidneyhamilton.com"
 github_username:  cidneyhamilton
 mastodon_url: https://mastodon.gamedev.place/@cidney
 facebook_url: https://www.facebook.com/cidney.hamilton
