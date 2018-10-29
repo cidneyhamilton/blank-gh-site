@@ -11,9 +11,9 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url | escape }}" />
   
   {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+    <meta property="og:image" content="{{ page.image | prepend: site.url }}" />
   {% else %}
-    <meta property="og:image" content="/assets/images/icon.jpg" />
+    <meta property="og:image" content="{{ site.url }}/assets/images/icon.jpg" />
   {% endif %}
 
   {% if page.id %}
