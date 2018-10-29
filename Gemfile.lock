@@ -60,7 +60,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler
   jekyll
   jekyll-sitemap
   rake
