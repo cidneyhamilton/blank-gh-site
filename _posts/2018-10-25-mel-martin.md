@@ -12,11 +12,11 @@ image: /assets/images/post-images/melmartin.jpg
 
 She is running first and foremost as an **environmentalist**. The district she will represent contains much of the **Indian River Lagoon**. Her district alone contains Mosquito Lagoon, the Merritt Island National Wildlife Refuge, and Canaveral National Seashore. 
 
-![Photo of Indian River Lagoon](/assets/images/post-images/irl-healthy.jpg)
+![Photo of Indian River Lagoon](/assets/images/post-images/irl-healthy.jpg){: .narrow-right }
 
 The Indian River Lagoon is home to thousands of unique species of plants, animals, and birds. It's a breeding ground for dolphins and manatees, and vital to the regional ecosystem. However, as more humans have settled in Central Florida following the development of the space industry, the lagoon has been threatened. Pollution, stormwater runoff, and human waste have all threatened the water quality of the lagoon, leading to toxic algae blooms and killing wildlife.
 
-![Photo of an algae bloom](/assets/images/post-images/dead_lagoon.jpg)
+![Photo of an algae bloom](/assets/images/post-images/dead_lagoon.jpg){: .narrow-right }
 
 Martin grew up in Central Florida. She graduated from the US Naval Academy, then served in the **Marine Corps** until 2014. She moved back to Brevard County to raise her family, where it became evident that the waterways she grew up with are in danger. She previously served as president of the [Brevard Indian River Coalition](https://helpthelagoon.org/).
 

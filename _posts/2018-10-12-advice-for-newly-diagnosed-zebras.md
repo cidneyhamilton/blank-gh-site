@@ -9,7 +9,7 @@ Recently, an old friend from Boston was diagnosed with Ehlers-Danlos Syndrome, a
 
 <!-- more -->
 
-![Contortionist with EDS](/assets/images/post-images/contortionist-bw.png)
+![Contortionist with EDS](/assets/images/post-images/contortionist-bw.png){: .narrow }
 
 I was diagnosed with EDS three years ago. I'd sprained my ankle running, and it never healed properly. I didn't know anyone else with EDS. The only thing I knew about it was from reading [The Contortionist's Handbook](http://wandererstraining.com/tchb/), which points out that **it's actually quite rare for contortionists to have EDS**. 
 
