@@ -3,10 +3,6 @@
 {% assign permalink = include.permalink | prepend: site.url %}
 <indie-action do="post" with="{{ permalink }}">
 
-	<a href="https://www.facebook.com/sharer/sharer.php?u={{ permalink | url_encode }}&title={{ include.title }}">
-		{% include icon-facebook.svg %} Facebook
-   	</a> 
-
 </indie-action>
 
 {% endif %}
