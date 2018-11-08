@@ -9,14 +9,14 @@ mastodon_url: https://mastodon.gamedev.place/@cidney
 facebook_url: https://www.facebook.com/cidney.hamilton
 
 micropub_url: "https://secure-lake-98955.herokuapp.com/micropub/main"
-webmention_url: "https://webmention.io/cidneyhamilton.com/webmention"
-pingback_url: "https://webmention.io/cidneyhamilton.com/xmlrpc"
+webmention_url: "https://webmention.io/www.cidneyhamilton.com/webmention"
+pingback_url: "https://webmention.io/www.cidneyhamilton.com/xmlrpc"
 
 blog_title: "Latest Updates"
 microblog_title: "Notes"
 
 webmentions:
-  username: cidneyhamilton.com
+  username: www.cidneyhamilton.com
   collections: 
     - notes
 
