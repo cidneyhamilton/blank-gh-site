@@ -10,7 +10,15 @@
 {% if note.mf-photo != null %}
 	{% for photo in note.mf-photo %}
 	<p class="u-featured">
-		<a href="{{ photo }}"><img class="u-photo" src="{{ photo }}" alt="" /></a>
+		{% if photo.value != null && photo.alt != null %}
+			<a href="{{ photo.value }}">
+				<img class="u-photo" src="{{ photo.value }}" alt="{{ photo.alt }}" />
+			</a>
+		{% else %}
+			<a href="{{ photo }}">
+				<img class="u-photo" src="{{ photo }}" alt="" />
+			</a>
+		{% endif %}
 	</p>
 	{% endfor %}
 {% endif %}
