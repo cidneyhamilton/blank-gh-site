@@ -9,7 +9,7 @@ blurb: 140 character micro-updates.
 	{% assign notes = site.notes | reverse %}
 	{% for note in notes limit:20 %}
 	    <li class="microblog h-entry" lang="en">
-		  	{% include post_meta.html date=note.date author=site.author %}
+		  	{% include post_meta.html note_url=note.url date=note.date author=site.author %}
 		   	{% include post-content.html note=note %}
 	    </li>
 	{% endfor %}

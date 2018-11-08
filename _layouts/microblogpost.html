@@ -2,9 +2,11 @@
 layout: microblog
 ---
 
-<article class="post h-entry" lang="en">
+<ul class="microblog-index">
+	<li class="microblog">
 
-{% include post-content.html post=page %}
-</article>
+		{% include post-content.html note=page %}
 
-{% include microblog_footer.html %}
+	{% include microblog_footer.html %}
+	</li>
+</ul>
