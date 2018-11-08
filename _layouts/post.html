@@ -12,7 +12,8 @@ layout: blog
 
 	<footer class="post-footer">
 		<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-		{% include post_meta.html date=page.date author=site.author webactions=true note_url=page.url %}
+		{% assign title = page.title | strip_html %}
+		{% include post_meta.html date=page.date author=site.author webactions=true note_url=page.url title=title %}
 	</footer>
   
 </article>
