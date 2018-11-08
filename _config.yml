@@ -8,6 +8,8 @@ github_username:  cidneyhamilton
 mastodon_url: https://mastodon.gamedev.place/@cidney
 facebook_url: https://www.facebook.com/cidney.hamilton
 
+micropub_url: https://secure-lake-98955.herokuapp.com/micropub/main
+
 blog_title: "Latest Updates"
 microblog_title: "Notes"
 
