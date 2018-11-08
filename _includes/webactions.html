@@ -1,10 +1,10 @@
 <indie-action do="post" with="{{ page.url }}">
 
-	<a class="twitter-share-button" href="https://twitter.com/intent/tweet?url={{ page.url }}">
+	<a class="twitter-share-button" href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url }}">
 		{% include icon-twitter.svg %} Tweet
 	</a>
 
-	<a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url }}">
+	<a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}">
 		{% include icon-facebook.svg %} Share
 	</a> 
 </indie-action>
