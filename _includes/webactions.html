@@ -1,19 +1,11 @@
 {% if include.permalink != null %}
 
-<indie-action do="post" with="{{ include.permalink | prepend: site.url }}">
+{% assign permalink = include.permalink | prepend: site.url %}
+<indie-action do="post" with="{{ permalink }}">
 
-	<span class="tweet-button">
-		<a target="_blank" href="http://twitter.com/share" 
-	     class="twitter-share-button" 
-	     data-url="{{ include.permalink | prepend: site.url }}" 
-	     data-text="{{ include.title }}" 
-	     data-show-count="false"
-	     data-via="t" 
-	     data-related="html5now:microformats">{% include icon-twitter.svg %}
-	Tweet</a>
-	  <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-
-	</span>
+	<a href="https://www.facebook.com/sharer/sharer.php?u={{ permalink | url_encode }}&title={{ include.title }}">
+		{% include icon-facebook.svg %} Facebook
+   	</a> 
 
 </indie-action>
 
