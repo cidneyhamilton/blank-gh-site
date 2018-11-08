@@ -1,17 +1,17 @@
 <aside class="pagination">
-
-	{% for post in site.categories.microblog %}
-        {% if post.url == page.url %}
+	{% assign notes = site.notes | reverse %}
+	{% for note in notes %}
+        {% if note.url == page.url %}
             {% assign post_index0 = forloop.index0 %}
             {% assign post_index1 = forloop.index %}
         {% endif %}
     {% endfor %}
-    {% for post in site.categories.microblog %}
+    {% for note in notes %}
         {% if post_index0 == forloop.index %}
-            {% assign next_post = post %}
+            {% assign next_post = note %}
         {% endif %}
         {% if post_index1 == forloop.index0 %}
-            {% assign prev_post = post %}
+            {% assign prev_post = note %}
         {% endif %}
     {% endfor %}
 
