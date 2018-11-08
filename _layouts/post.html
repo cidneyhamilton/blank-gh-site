@@ -10,6 +10,7 @@ layout: blog
     {{ content }}
   </div>
 
+  {% webmentions %}
 	<footer class="post-footer">
 		<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 		{% assign title = page.title | strip_html %}
@@ -19,4 +20,6 @@ layout: blog
 </article>
 
 {% include blog_footer.html %}
+
+{% webmentions_js %}
 

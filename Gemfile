@@ -4,6 +4,7 @@ gem 'jekyll'
 
 group :jekyll_plugins do
 	gem 'jekyll-sitemap'
+	gem 'jekyll-webmention_io'
 end
 
 gem "rake"

@@ -8,12 +8,18 @@ github_username:  cidneyhamilton
 mastodon_url: https://mastodon.gamedev.place/@cidney
 facebook_url: https://www.facebook.com/cidney.hamilton
 
-micropub_url: https://secure-lake-98955.herokuapp.com/micropub/main
+micropub_url: "https://secure-lake-98955.herokuapp.com/micropub/main"
+webmention_url: "https://webmention.io/cidneyhamilton.com/webmention"
+pingback_url: "https://webmention.io/cidneyhamilton.com/xmlrpc"
 
 blog_title: "Latest Updates"
 microblog_title: "Notes"
 
-webmention_url: "https://webmention.io/cidneyhamilton.com/webmention"
+webmentions:
+  username: cidneyhamilton.com
+  collections: 
+    - notes
+
 
 collections:
   notes:
