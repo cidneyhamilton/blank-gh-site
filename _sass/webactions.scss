@@ -7,3 +7,12 @@ indie-action {
 		padding-right: 2px;
 	}
 }
+
+@media screen and (max-width:480px) {
+
+	indie-action {
+		display: block;
+		padding-left: 0;	
+	}
+	
+}

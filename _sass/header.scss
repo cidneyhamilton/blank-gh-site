@@ -29,13 +29,13 @@ header.site-header {
 
 
 header.post-header {
-	h2 a {
-		color: black;
-	}
 	text-align: left;
 
 	h2 {
-		font-size: 2.4em;
+		font-size: 2em;
+		a {
+			color: black;
+		}
 	}
 }
 
@@ -51,7 +51,7 @@ header.post-header {
 	}
 
 	header.post-header h2 {
-		font-size: 2em;
+		font-size: 1.6em;
 	}
 }
 
