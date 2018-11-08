@@ -8,8 +8,16 @@ blurb: 140 character micro-updates.
 <ul class="microblog-index">
 	{% assign notes = site.notes | reverse %}
 	{% for note in notes limit:20 %}
-	    <li class="microblog h-entry" lang="en">
+	    <li class="microblog">
+	    	<article class="h-entry" lang="en">
 		   	{% include post-content.html note=note %}
+
+		   	<footer class="post-footer">
+				<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+				{% include post_meta.html note_url=note.url date=note.date author=site.author webactions=true %}
+			</footer>
+			</article>
 	    </li>
 	{% endfor %}
 </ul>

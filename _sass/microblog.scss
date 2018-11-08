@@ -1,0 +1,36 @@
+
+.microblog-index {
+	list-style-type: none;
+	max-width: 520px;
+	margin: 0 auto;
+	li {
+		padding: 1em;
+		margin-bottom: 1em;
+		border: 1px solid $background-dark;
+		background-color: $background-lightest;
+		box-shadow: 4px 4px 8px 2px $background-dark;
+	}		
+}
+
+.microblog {
+	font-family: $sans-serif-font-stack;
+	font-size: 0.9em;
+	p img {
+		background-color: #f3f3f3;
+		border: 1px solid #ddd;
+		padding: 4px;
+		max-width: 90%;
+	}
+
+	.e-content a {
+		overflow-wrap: break-word;
+	}
+
+	.h-entry {
+		padding: 0;
+	}
+
+	footer {
+		padding: 0;
+	}
+}

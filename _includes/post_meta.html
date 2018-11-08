@@ -1,8 +1,18 @@
  <p class="post-meta">
+ 	{% if include.not_url %}
     <a href="{{ include.note_url }}"><time class="dt-published" datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">
       {{ include.date | date: "%B %d, %Y" }}
     </time></a>
+    {% else %}
+    	<time class="dt-published" datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">
+      {{ include.date | date: "%B %d, %Y" }}
+    </time>
+    {% endif %}
     {%- if include.author -%}
       &mdash; <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ include.author }}</span></span>
     {%- endif -%}
+
+    {% if include.webactions %}
+    	{% include webactions.html %}
+    {% endif %}
 </p>

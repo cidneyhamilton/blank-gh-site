@@ -6,6 +6,10 @@ layout: microblog
 	<li class="microblog h-entry" lang="en">
 		{% include post-content.html note=page %}
 
+		<footer class="post-footer">
+			<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+			{% include post_meta.html note_url=page.url date=page.date author=site.author webactions=true %}
+		</footer>
 	</li>
 </ul>
 
