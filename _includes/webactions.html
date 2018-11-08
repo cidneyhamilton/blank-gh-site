@@ -1,11 +1,11 @@
 {% if include.permalink != null %}
 <indie-action do="post" with="{{ include.permalink }}">
 
-	<a class="twitter-share-button" href="https://twitter.com/intent/tweet?url={{ include.permalink | prepend: site.url }}">
+	<a class="twitter-share-button" href="https://twitter.com/intent/tweet?url={{ include.permalink | prepend: site.url | url_encode }}">
 		{% include icon-twitter.svg %} Tweet
 	</a>
 
-	<a href="https://www.facebook.com/sharer/sharer.php?u={{ include.permalink | prepend: site.url }}">
+	<a href="https://www.facebook.com/sharer/sharer.php?u={{ include.permalink | prepend: site.url | url_encode }}">
 		{% include icon-facebook.svg %} Share
 	</a> 
 </indie-action>
