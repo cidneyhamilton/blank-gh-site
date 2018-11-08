@@ -1,17 +1,20 @@
 {% if include.permalink != null %}
+
 <indie-action do="post" with="{{ include.permalink | prepend: site.url }}">
 
-	{% capture twitter_url %}{{ site.url }}{{ include.permalink }}{% endcapture %}
+	<span class="tweet-button">
+		<a target="_blank" href="http://twitter.com/share" 
+	     class="twitter-share-button" 
+	     data-url="{{ include.permalink | prepend: site_url }}" 
+	     data-text="{{ include.title }}" 
+	     data-show-count="false"
+	     data-via="t" 
+	     data-related="html5now:microformats">{% include icon-twitter.svg %}
+	Tweet</a>
+	  <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 
-	{% capture facebook_url %}{{ include.permalink }}&title={{ include.title }}{% endcapture %}
-
-	<a class="twitter-share-button" href="https://twitter.com/intent/tweet?url={{ twitter_url | url_encode }}&text= {{ include.title | url_encode }}">
-		{% include icon-twitter.svg %} Tweet
-	</a>
-
-	<a class="facebook-share-button" href="https://www.facebook.com/sharer/sharer.php?u={{ facebook_url | url_encode }}&title={{ include.title | url_encode }}">
-		{% include icon-facebook.svg %} Share
-	</a> 
+	</span>
 
 </indie-action>
+
 {% endif %}

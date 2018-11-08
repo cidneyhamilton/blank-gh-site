@@ -1,3 +1,6 @@
+#fb-root {
+	display: inline;
+}
 indie-action {
 	padding-left: 16px;
 	a {
@@ -5,6 +8,7 @@ indie-action {
 	}
 	svg {
 		padding-right: 2px;
+		vertical-align: middle;
 	}
 }
 
