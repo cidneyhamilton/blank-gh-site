@@ -1,0 +1,16 @@
+<p class=e-content">
+	{{ note.content }}
+ </p>
+{% comment %} Legacy Image Display {% endcomment %}
+{% if note.image %}
+	<p class="u-featured">
+		<a href="{{ note.image }}"><img class="u-photo" src="{{ note.image }}" alt="" /></a>
+	</p>
+{% endif %}
+{% if note.mf-photo != null %}
+	{% for photo in note.mf-photo %}
+	<p class="u-featured">
+		<a href="{{ photo }}"><img class="u-photo" src="{{ photo }}" alt="" /></a>
+	</p>
+	{% endfor %}
+{% endif %}
