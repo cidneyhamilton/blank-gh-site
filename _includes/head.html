@@ -2,51 +2,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="description" content="{{ site.description }}">
   <meta name="keywords" content="personal, website, cidney, hamilton, contact, information">
 
-  <!-- Open Graph data -->
-  <meta property="og:site_name" content="{{ site.title }}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ page.title | escape }}" />
-  <meta property="og:url" content="{{ site.url }}{{ page.url | escape }}" />
-  
-  {% capture image %}{% if page.image %}{{ site.url }}{{ page.image }}{% endif %}{% endcapture %}
-
-{% capture description %}{% if page.id %}{{ page.content | strip_html | truncate: 50 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
-
-  {% if image %}
-    <meta property="og:image" content="{{ image }}" />
-  {% endif %}
-
-  <meta property="og:image" content="/assets/images/icon.jpg" />
-  <meta property="og:description" content="{{ description }}" />
-
-  <!-- Twitter Card Data -->
-  <meta name="twitter:title" content="{{ page.title | escape }}">
-  <meta name="twitter:description" content="{{ description }}">
-  <meta name="twitter:image" content="{{ image }}">
-  <meta name="twitter:creator" content="{{ site.twitter_username }}">
+  {%- seo -%}
 
   <meta name="mobile-web-app-capable" content="yes" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <title>{{ page.title }} | {{ site.title }}</title>
   
   <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
-  <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/images/favicon.ico" | relative_url }}">
 
   <!--Social Media Profiles-->
-  <link rel="me" href="https://github.com/{{ site.github_username }}" />
+  <link rel="me" href="https://github.com/{{ site.github.username }}" />
+  <link rel="me" href="https://twitter.com/{{ site.twitter.username }}" />
 
-  <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
-  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+  <link rel="authorization_endpoint" href="{{ endpoints.auth }}" />
+  <link rel="token_endpoint" href="{{ endpoints.token }}" />
   <link rel="micropub" href="{{ site.micropub_url }}">
   
   {% webmentions_head %}
 
   <!-- Web Actions -->
-  <script src="/js/indieconfig.js"></script> 
-  <script src="/js/webaction.js"></script>
+  <script src="{{ "/js/indieconfig.js" | relative_url }}"></script> 
+  <script src="{{ "/js/webaction.js" | relative_url }}"></script>
 
 </head>

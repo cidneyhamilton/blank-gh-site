@@ -6,7 +6,7 @@
 
     	<div class="footer-col footer-col-1">
 		    <form class="search" action="http://www.google.com/search" method="get">
-							<input type="hidden" name="as_sitesearch" value="cidneyhamilton.com"/>
+							<input type="hidden" name="as_sitesearch" value="{{ site.url }}"/>
 							<input type="hidden" name="tbs" value="sbd:1,cdr:1,cd_min:1/1/1970"/>
 							<input type="search" name="q" placeholder="Search" />
 							<button type="submit">Search</button>
@@ -19,13 +19,13 @@
 
     	<div class="footer-col footer-col-3">
         	Content &copy; 2018 
-          <a rel="me" class="p-name u-url" href="http://cidneyhamilton.com">
-            Cidney Hamilton
+          <a rel="me" class="p-name u-url" href="{{ site.url }}">
+            {{ site.author }}
           </a>
           <br/>
           License: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
           <br/>
-          Questions? <a rel="me" class="u-email" href="mailto:cidney@cidneyhamilton.com"> Email Me</a>
+          Questions? <a rel="me" class="u-email" href="mailto:{{ site.email }}"> Email Me</a>
 
     	</div>
 
