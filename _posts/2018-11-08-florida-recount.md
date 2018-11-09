@@ -8,7 +8,7 @@ image: "/assets/images/post-images/gillum2018.jpg"
 
 ![Photo of Andrew Gillum](/assets/images/post-images/gillum2018.jpg)
 
-Eleciton day was **Tuesday, November 6th, 2018**. As of Thursday, **three** races in Florida are too close to call and likely to be recounted.
+Election day was **Tuesday, November 6th, 2018**. As of Thursday, **three** races in Florida are too close to call and likely to be recounted.
 
 <!-- more -->
 
