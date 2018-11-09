@@ -3,7 +3,7 @@ layout: post
 title:  "2018 Florida Recount"
 date:   2018-11-08
 category: blog
-image: "assets/images/post-images/gillum2018.jpg"
+image: "/assets/images/post-images/gillum2018.jpg"
 ---
 
 ![Photo of Andrew Gillum](/assets/images/post-images/gillum2018.jpg)
