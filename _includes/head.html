@@ -6,20 +6,27 @@
   <meta name="keywords" content="personal, website, cidney, hamilton, contact, information">
 
   <!-- Open Graph data -->
+  <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ page.title | escape }}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url | escape }}" />
   
-  {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
-  {% endif %}
-  <meta property="og:image" content="/assets/images/icon.jpg" />
+  {% capture image %}{% if page.image %}{{ site.url }}{{ page.image }}{% endif %}{% endcapture %}
 
-  {% if page.id %}
-    <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 50 }}" />
-  {% else %}
-    <meta property="og:description" content="{{ site.description }}">
+{% capture description %}{% if page.id %}{{ page.content | strip_html | truncate: 50 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+
+  {% if image %}
+    <meta property="og:image" content="{{ image }}" />
   {% endif %}
+
+  <meta property="og:image" content="/assets/images/icon.jpg" />
+  <meta property="og:description" content="{{ description }}" />
+
+  <!-- Twitter Card Data -->
+  <meta name="twitter:title" content="{{ page.title | escape }}">
+  <meta name="twitter:description" content="{{ description }}">
+  <meta name="twitter:image" content="{{ image }}">
+  <meta name="twitter:creator" content="{{ site.twitter_username }}">
 
   <meta name="mobile-web-app-capable" content="yes" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
