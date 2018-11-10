@@ -9,8 +9,7 @@ layout: blog
   <div class="post-content e-content">
     {{ content }}
   </div>
-
-  {% webmentions %}
+  
 	<footer class="post-footer">
 		<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 		{% assign title = page.title | strip_html %}
@@ -20,6 +19,4 @@ layout: blog
 </article>
 
 {% include pagination.html notes=site.categories.blog index='/blog/' %}
-
-{% webmentions_js %}
 

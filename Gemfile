@@ -6,7 +6,6 @@ gem "rake"
 
 group :jekyll_plugins do
 	gem 'jekyll-sitemap'
-	gem 'jekyll-webmention_io'
 	gem 'jekyll-seo-tag'
 end
 
