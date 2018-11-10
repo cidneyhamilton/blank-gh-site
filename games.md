@@ -29,7 +29,7 @@ City of Mind is a psychological fantasy game about parental estrangement, immigr
 * Release Date: July 2013 (Version 1, Inform 7)
 * Re-released in Twine on November 2016
 * Platform: Web
-* Play in browser [here](http://cidneyhamilton.com/Leavetaking.html).
+* Play in browser <a href="http://cidneyhamilton.com/Leavetaking.html" target="_blank">here</a>.
 
 ### Ashara Online
 
