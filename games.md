@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Game Portfolio
+permalink: /games/
 ---
 
 Here are some narrative-driven games I've worked on:

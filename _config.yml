@@ -38,5 +38,5 @@ webmentions:
 collections:
   notes:
     output: true
-    permalink: microblog/:year/:month/:day/:title
+    permalink: microblog/:year/:month/:day/:title/
 
