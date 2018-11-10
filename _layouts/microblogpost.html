@@ -13,4 +13,5 @@ layout: microblog
 	</li>
 </ul>
 
-{% include microblog_footer.html %}
+{% assign notes = site.notes | reverse %}
+{% include pagination.html notes=notes index='/microblog/' %}

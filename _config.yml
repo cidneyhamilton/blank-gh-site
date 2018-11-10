@@ -4,6 +4,7 @@ description: "Cidney Hamilton's personal website."
 author: Cidney Hamilton
 url: "http://www.cidneyhamilton.com"
 logo: "/assets/images/icon.jpg"
+favicon: "/assets/images/favicon.ico"
 
 mastodon_url: https://mastodon.gamedev.place/@cidney
 facebook_url: https://www.facebook.com/cidney.hamilton
@@ -25,6 +26,8 @@ pingback_url: "https://webmention.io/www.cidneyhamilton.com/xmlrpc"
 
 blog_title: "Latest Updates"
 microblog_title: "Notes"
+
+google_analytics: "UA-129034957-1"
 
 webmentions:
   username: www.cidneyhamilton.com

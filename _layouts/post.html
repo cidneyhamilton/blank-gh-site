@@ -2,7 +2,7 @@
 layout: blog
 ---
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry">
 
   {% include post_header.html %}
 
@@ -19,7 +19,7 @@ layout: blog
   
 </article>
 
-{% include blog_footer.html %}
+{% include pagination.html notes=site.categories.blog index='/blog/' %}
 
 {% webmentions_js %}
 

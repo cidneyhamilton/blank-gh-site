@@ -5,12 +5,7 @@
     <div class="footer-col-wrapper">
 
     	<div class="footer-col footer-col-1">
-		    <form class="search" action="http://www.google.com/search" method="get">
-							<input type="hidden" name="as_sitesearch" value="{{ site.url }}"/>
-							<input type="hidden" name="tbs" value="sbd:1,cdr:1,cd_min:1/1/1970"/>
-							<input type="search" name="q" placeholder="Search" />
-							<button type="submit">Search</button>
-				</form>
+		    {% include search_form.html %}
    		 </div>
 
    		 <div class="footer-col footer-col-2">
@@ -23,10 +18,9 @@
             {{ site.author }}
           </a>
           <br/>
-          License: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+          License: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
           <br/>
           Questions? <a rel="me" class="u-email" href="mailto:{{ site.email }}"> Email Me</a>
-
     	</div>
 
     </div> 
@@ -34,3 +28,7 @@
   </div>
 
 </footer>
+
+{% if site.google_analytics && jekyll.environment == 'production' %}
+  {% include analytics.html %}
+{% endif %}

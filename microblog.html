@@ -17,6 +17,7 @@ blurb: 140 character micro-updates.
 
 				{% assign title = note.content | strip_html %}
 				{% include post_meta.html note_url=note.url date=note.date author=site.author webactions=true title=title %}
+				<a href="{{ note.url }}">Permalink</a>
 			</footer>
 			</article>
 	    </li>

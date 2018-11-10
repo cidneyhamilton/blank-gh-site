@@ -1,5 +1,6 @@
 <aside class="pagination">
-	{% assign notes = site.notes | reverse %}
+
+	{% assign notes = include.notes %}
 	{% for note in notes %}
         {% if note.url == page.url %}
             {% assign post_index0 = forloop.index0 %}
@@ -23,15 +24,15 @@
 		{% endif %}
 	</div>
 
-	<section class="navigation navigation-up">
-		&uarr; <a href="/microblog/">Back to Top</a>
-	</section>
+	<div class="navigation navigation-up">
+		&uarr; <a href="{{ include.index }}">Back to Top</a>
+	</div>
 
 	<div class="navigation navigation-next">
-	{% if next_post %}
-	<a href="{{ site.baseurl }}{{ next_post.url }}" title="Next Post: {{ next_post.title }}">
-		Next  &rarr;
-	</a>
-	{% endif %}
+		{% if next_post %}
+		<a href="{{ site.baseurl }}{{ next_post.url }}" title="Next Post: {{ next_post.title }}">
+			Next  &rarr;
+		</a>
+		{% endif %}
 	</div>
 </aside>

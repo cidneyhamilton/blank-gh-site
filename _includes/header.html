@@ -1,10 +1,8 @@
 <header class="site-header">
 	{% include nav.html %}
-    <div class="wrapper">
-        <h1 id="name" class="h-card">
-            <a class="p-name p-url" rel="me" href="{{ "/" | relative_url }}">
-                {{ site.title | escape }}
-            </a>
-        </h1>
-    </div>
+    <h1 id="name" class="h-card">
+        <a class="p-name p-url" rel="me" href="{{ "/" | relative_url }}">
+            {{ site.title | escape }}
+        </a>
+    </h1>
 </header>
