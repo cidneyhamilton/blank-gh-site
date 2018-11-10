@@ -34,6 +34,7 @@ webmentions:
   collections: 
     - notes
 
+exclude: [vendor]
 
 collections:
   notes:
