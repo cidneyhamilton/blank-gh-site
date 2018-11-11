@@ -3,7 +3,6 @@
 	var expanded = false;
 	
 	var toggleNav = function() {
-		console.log("Clicked");
 		var hamburgerButton = document.getElementById("hamburger_button");
 		var siteHeader = document.getElementById("site_header");
 		hamburgerButton.classList.toggle("is-active");
