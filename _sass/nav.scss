@@ -9,6 +9,17 @@ nav {
 			display: inline-block;
 			padding: 3px 1em 0 1em;
 		}
+		li.active {
+			font-weight: bold;
+		}
+	}
+
+	a:link, 
+	a:visited {
+		color: black;
+	}
+	a:hover, a:visited:hover {
+		color: $link-color;
 	}
 	
 }
@@ -39,10 +50,18 @@ nav {
 		}
 	}
 
+	.site-nav {
+		display: none;
+	}
+
 	.site-header.opened {
 		overflow-x: hidden;
 		overflow-y: auto;
 		max-height: calc(100vh - 40px);
+
+		.site-nav {
+			display:block;
+		}
 	}
 
 	nav label {

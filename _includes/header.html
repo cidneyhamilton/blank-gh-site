@@ -6,23 +6,10 @@
 		            {{ site.title | escape }}
 		        </a>
 		    </h1>
-			<button class="hamburger hamburger--squeeze" type="button"
-			aria-label="Menu" aria-controls="navigation" aria-expanded="false">
-				<span class="hamburger-box">
-					<span class="hamburger-inner"></span>
-				</span>
-			</button>
+			{% include hamburger-menu.html %}
 		</div>
 	
-	
-		<nav class="site-nav" role="navigation">
-
-			<ul>
-				{% for item in site.data.nav %}
-					<li><a href="{{ item.link }}">{{ item.name }}</a></li>
-				{% endfor %}
-			</ul>
-		</nav>
+		{% include nav.html %}
 	</div>
 
 </header>

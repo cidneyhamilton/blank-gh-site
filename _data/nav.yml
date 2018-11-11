@@ -1,8 +1,8 @@
 - name: Blog
-  link: "/blog"
+  link: "/blog/"
 - name: Notes
-  link: "/microblog"
+  link: "/microblog/"
 - name: Games
-  link: "/games"
+  link: "/games/"
 - name: Home
   link: "/"
