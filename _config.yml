@@ -6,6 +6,8 @@ url: "https://www.cidneyhamilton.com"
 logo: "/assets/images/icon.jpg"
 favicon: "/assets/images/favicon.ico"
 
+cc_license_url: https://creativecommons.org/licenses/by/4.0/
+
 mastodon_url: https://mastodon.gamedev.place/@cidney
 facebook_url: https://www.facebook.com/cidney.hamilton
 

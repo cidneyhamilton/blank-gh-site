@@ -20,7 +20,7 @@ Once you've established yourself as the ruler of the crime world (and, eventuall
 
 * Release Date: October 2017 (Inform 6)
 * Platform: Zoom
-* Download [here](http://ifdb.tads.org/viewgame?id=32u49mceyst7p8ey).
+* Download [here](https://ifdb.tads.org/viewgame?id=32u49mceyst7p8ey).
 
 ### City of Mind: Leavetaking
 
@@ -29,7 +29,7 @@ City of Mind is a psychological fantasy game about parental estrangement, immigr
 * Release Date: July 2013 (Version 1, Inform 7)
 * Re-released in Twine on November 2016
 * Platform: Web
-* Play in browser <a href="http://cidneyhamilton.com/Leavetaking.html" target="_blank">here</a>.
+* Play in browser <a href="https://cidneyhamilton.com/Leavetaking.html" target="_blank">here</a>.
 
 ### Ashara Online
 
