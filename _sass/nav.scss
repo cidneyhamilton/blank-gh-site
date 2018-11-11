@@ -1,9 +1,6 @@
 
 nav {
-	background: linear-gradient($background-light, $background-medium);
-	border-bottom: 2px solid $color-background-shadow;
-	position: relative;
-	z-index: 1;
+
 	ul {
 		list-style-type: none;
 		padding: 0.8em;
@@ -13,26 +10,39 @@ nav {
 			padding: 3px 1em 0 1em;
 		}
 	}
-	a {
-		text-decoration: none;
-	}
-	label {
-		cursor: pointer;
+	
+}
+
+@media screen and (min-width:621px) {
+	.hamburger {
 		display: none;
-		font-size: 200%;
-		transition: background-color 0.2s ease-in-out;
 	}
-	input {
-		display: none;
+
+	.menu-controls {
+		float: left;
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 620px) {
 
-	nav {
-		input:checked + ul {
-			display: block;
+	.site-header {
+		max-height: 100px;
+		overflow: hidden;
+		transition: max-height 0.8s ease;
+
+		.menu-controls {
+			display: flex;
+			align-items: center;
+			height: 100px;
+			justify-content: space-around;
+			width: 100%;
 		}
+	}
+
+	.site-header.opened {
+		overflow-x: hidden;
+		overflow-y: auto;
+		max-height: calc(100vh - 40px);
 	}
 
 	nav label {
@@ -43,18 +53,15 @@ nav {
 	}
 
 	nav ul {
-		display: none;
-		float: left;
+		float: right;
 		padding: 0.5em 1em 1em 1em;
-		position: static;
 		li {
 			display: block;
 			font-size: 100%;
-			text-align: left;
+			text-align: right;
 			a {
 				border-top: 2px solid $color-background-shadow;
 				display: block;
-				padding: 0 6em 0 0;
 			}
 		}
 		li:first-child a {

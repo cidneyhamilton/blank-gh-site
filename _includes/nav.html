@@ -1,6 +1,13 @@
-<nav>
-	<label for="toggle-mobile-menu">&#9776;</label>
-	<input id="toggle-mobile-menu" type="checkbox">
+<nav class="site-nav" role="navigation">
+	<div class="menu-controls">
+		<button class="hamburger hamburger--squeeze" type="button"
+			aria-label="Menu" aria-controls="navigation" aria-expanded="false">
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+		</button>
+	</div>
+
 	<ul>
 		{% for item in site.data.nav %}
 			<li><a href="{{ item.link }}">{{ item.name }}</a></li>

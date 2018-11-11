@@ -1,8 +1,28 @@
 <header class="site-header">
-	{% include nav.html %}
-    <h1 id="name" class="h-card">
-        <a class="p-name p-url" rel="me" href="{{ "/" | relative_url }}">
-            {{ site.title | escape }}
-        </a>
-    </h1>
+	<div class="header-container">
+		<div class="menu-controls">
+			<h1 id="name" class="h-card">
+		        <a class="p-name p-url" rel="me" href="{{ "/" | relative_url }}">
+		            {{ site.title | escape }}
+		        </a>
+		    </h1>
+			<button class="hamburger hamburger--squeeze" type="button"
+			aria-label="Menu" aria-controls="navigation" aria-expanded="false">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+		</div>
+	
+	
+		<nav class="site-nav" role="navigation">
+
+			<ul>
+				{% for item in site.data.nav %}
+					<li><a href="{{ item.link }}">{{ item.name }}</a></li>
+				{% endfor %}
+			</ul>
+		</nav>
+	</div>
+
 </header>

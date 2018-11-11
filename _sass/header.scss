@@ -20,11 +20,25 @@ header {
 
 }
 
-header.blog-header,
-header.site-header {
+.site-header {
+	background: linear-gradient($background-light, $background-medium);
+	border-bottom: 2px solid $color-background-shadow;
+}
+
+.blog-header,
+.site-header {
 	a {
 		color: black;
 	}
+}
+
+.site-header .wrapper {
+	padding: 0;
+}
+
+.header-container {
+	max-width: 970px;
+	margin: 0 auto;
 }
 
 

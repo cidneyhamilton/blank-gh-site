@@ -10,8 +10,18 @@ body {
 	background: linear-gradient(90deg, $background-light, $background-medium);
 }
 
-a {
+a:link {
 	text-decoration: none;
+	color: $link-color;
+}
+
+a:hover {
+	color: $link-color-hover;
+	transition: color 0.5s ease;
+}
+
+a:visited {
+	color: $link-color-hover;
 }
 
 ul {
