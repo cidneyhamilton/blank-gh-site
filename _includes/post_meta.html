@@ -1,12 +1,16 @@
  <p class="post-meta">
- 	  <time class="dt-published" datetime="{{ include.date | date_to_xmlschema }}">
+
+ 	<i class="far fa-calendar-alt"></i><time class="dt-published" datetime="{{ include.date | date_to_xmlschema }}">
       {{ include.date | date: "%B %d, %Y" }}
     </time>
     {%- if include.author -%}
-      &mdash; <span itemscope itemtype="http://schema.org/Person"><span class="p-author h-card">{{ include.author }}</span></span>
+      &mdash; <span itemscope itemtype="http://schema.org/Person"><span class="p-author h-card">{{ include.author }}</span></span>&nbsp;
     {%- endif -%}
+     &mdash; <a href="{{ note.url }}"><i class="fas fa-link"></i> Permalink</a>
 
     {% if include.webactions %}
     	{% include webactions.html permalink=include.note_url title=include.title %}
     {% endif %}
+
+
 </p>

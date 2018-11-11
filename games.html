@@ -1,0 +1,25 @@
+---
+layout: page
+title: Game Portfolio
+permalink: /games/
+---
+
+<p>
+Here are some narrative-driven games I've worked on:
+</p>
+
+<ul class="page-index">
+	{% for game in site.data.games %}
+	<li class="game">
+		<article class="h-entry" lang="en">
+		   	<h3>{{ game.title }}</h3>
+		   	<p>{{ game.description}}</p>
+		   	<ul>
+		   		{% if game.release != null %}<li><b>Release Date</b>: {{ game.release }}</li>{% endif %}
+		   		{% if game.platform != null %}<li><b>Platform</b>: {{ game.platform }}</li>{% endif %}
+		   		{% if game.link != null %}<li><b>{{ game.link_text }}</b>: <a href="{{ game.link }}" target="_blank">here</a></li>{% endif %}
+		   	</ul>
+		</article>
+	{% endfor %}
+	</li>
+</ul>

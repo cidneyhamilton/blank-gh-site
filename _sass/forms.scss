@@ -1,0 +1,14 @@
+input[type="submit"] {
+	outline: 0;
+	border: 1px solid $button-border;
+	background-color: $button-background;
+	color: $button-text;
+	font-family: $sans-serif-font-stack;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: $button-text;
+	color: $button-background;
+}

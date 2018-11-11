@@ -33,21 +33,6 @@ li {
 		padding: 0 0 1em 0;
 	}
 }
-
-input[type="submit"] {
-	outline: 0;
-	border: 1px solid $button-border;
-	background-color: $button-background;
-	color: $button-text;
-	font-family: $sans-serif-font-stack;
-	font-size: 13px;
-	cursor: pointer;
-}
-
-input[type="submit"]:hover {
-	background-color: $button-text;
-	color: $button-background;
-}
 			
 .contact-title:before {
 	display: inline-block;
@@ -55,20 +40,6 @@ input[type="submit"]:hover {
 
 h2 {
 	padding-top: 1em;
-
-	&.blog-title:before {
-		content: url('/assets/images/icons/rss24x24.png');
-		height: 24px;
-		padding-right: 8px;
-		width: 24px;
-	}
-
-	&.contact-title:before {
-		content: url('/assets/images/icons/message24x24.png');
-		height: 24px;
-		padding-right: 8px;
-		width: 24px;
-	}
 }
 
 #welcome {
@@ -79,19 +50,13 @@ h2 {
 	padding: 1em 2em 2em 2em;
 }
 
-.blog-nav {
-	text-align: center;
-	list-style-type: none;
-}
-
 .blurb {
 	margin: 0 0 2.5em 0;
 	font-style: italic;
 }
 
-.page-content,
-.blog-content {
-	padding-top: 2em;
+.wrapper {
+	padding-top: 1em;
 }
 
 @media screen and (max-width:600px) {
@@ -99,20 +64,5 @@ h2 {
 	ul, ol {
 		margin-left: 10px;
 	}
-
-	.wrapper {
-		padding-top: 1.5em;
-	}
-
-	.blog-title {
-		font-size: 2em;
-	}
-
-	.blog-title:before {
-		content: url('/assets/images/icons/rss24x24.png');
-		height: 24px;
-		width: 24px;
-	}
-
 
 }
