@@ -72,19 +72,26 @@ nav {
 	}
 
 	nav ul {
-		float: right;
+		display: flex;
+		flex-wrap: wrap;
 		padding: 0.5em 1em 1em 1em;
+		justify-content: space-between;
+		align-content: space-between;
 		li {
-			display: block;
+			border: 1px solid $background-dark;
+			background: $background-light;
 			font-size: 100%;
-			text-align: right;
+			flex-grow: 1;
+			flex-basis: 45%;
+			max-width: calc(50% - 2px);
+			margin-bottom: 3px;
+			text-align: center;
 			a {
-				border-top: 2px solid $color-background-shadow;
 				display: block;
 			}
 		}
-		li:first-child a {
-			border-top: 0;
+		li:hover {
+			background: $background-dark;
 		}
 
 	}

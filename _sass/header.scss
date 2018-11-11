@@ -57,12 +57,16 @@ header.post-header {
 
 @media screen and (max-width: 480px) {
 	header h1 {
-		font-size: 1.8em;
+		font-size: 1.4em;
 		margin-bottom: 0.2em;
+		text-overflow: none;
+		text-align: left;
 	}
 
-	header.post-header h2 {
-		font-size: 1.6em;
+	header.post-header h2,
+	.blog-title {
+		font-size: 1.3em;
 	}
+
 }
 

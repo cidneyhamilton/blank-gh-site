@@ -27,4 +27,12 @@
 		width: auto;
 	}
 
+	.row:nth-child(even) {
+		background: $background-medium;
+	}
+
+	.col:nth-child(odd) {
+		background: $background-dark;
+	}
+
 }
