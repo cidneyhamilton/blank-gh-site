@@ -1,4 +1,4 @@
-# [cidneyhamilton.com](https://www.cidneyhamilton.com) [![Build Status](https://travis-ci.org/cidneyhamilton/website.svg?branch=master)](http://travis-ci.org/cidneyhamilton/cidneyhamilton.com)
+# [cidneyhamilton.com](https://www.cidneyhamilton.com) [![Build Status](https://travis-ci.org/cidneyhamilton/cidneyhamilton.com.svg?branch=master)](http://travis-ci.org/cidneyhamilton/cidneyhamilton.com)
 
 ## About
 
